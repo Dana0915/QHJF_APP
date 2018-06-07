@@ -13,7 +13,7 @@
        <listInfo v-bind:list="GsInfo"> </listInfo>
     </mt-tab-container-item>
     <mt-tab-container-item id="2">
-       <listInfo v-bind:list="XsInfo"> </listInfo>
+       <!-- <listInfo v-bind:list="XsInfo"> </listInfo> -->
        <listInfo v-bind:list="HotInfo"> </listInfo>
        <listInfo v-bind:list="GsInfo"> </listInfo>
     </mt-tab-container-item>

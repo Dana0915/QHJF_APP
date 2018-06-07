@@ -53,7 +53,18 @@ export default new Router({
         component: resolve => require(['../view/find/index'], resolve)
       }, 
     ]
-    }, 
+    },{
+      path: 'money',
+      component: Home,
+      children: [{
+        path: '/',
+        meta: {
+          title: '资产'
+        },
+        component: resolve => require(['../view/money/index'], resolve)
+      }, 
+    ]
+    },  
      
   ]
     }

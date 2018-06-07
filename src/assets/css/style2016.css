@@ -270,6 +270,8 @@ h2.title {
     right: 0.09375rem; }
 
 .footer {
+  position: fixed;
+  bottom: 0;
   height: 2.75rem; }
   .footer ul {
     position: fixed;
@@ -278,8 +280,8 @@ h2.title {
     padding-top: 0.15625rem;
     height: 2.59375rem;
     font-size: 0.5625rem;
-    background: #e3e3e3;
-    border-top: 2px #dcdcdc solid; }
+    background: #fff;
+    border-top: 1px #dcdcdc solid; }
   .footer li {
     float: left;
     width: 25%;
@@ -1762,7 +1764,6 @@ h2.title {
     display: block;
     width: 4.71875rem;
     height: 4.5625rem;
-    background: url(../img/chop_min.png) no-repeat;
     background-size: 100%;
     margin-top: 0.625rem;
     text-indent: -999em; }

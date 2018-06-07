@@ -5,8 +5,17 @@ import App from './App'
 import router from './router'
 import MintUI from 'mint-ui'
 import 'mint-ui/lib/style.css'
-import './assets/css/my-mint.css';//全局修改mint-UI样式  
+import Vuex from 'vuex'
+// import store from './store/'
+import axios from 'axios'
+import qs from 'qs'
 
+
+import { Base64 } from 'js-base64';
+
+
+//注册Base64
+Vue.use(Base64)
 
 //注册MintUI
 Vue.use(MintUI)
@@ -40,6 +49,13 @@ import methods from './config/methods'
 Object.keys(methods).forEach((key) => {
 	Vue.prototype[key] = methods[key];
 });
+
+// Vue.prototype.HOST = '/api';
+Vue.prototype.HOST = 'http://test.qihangjf.com:29083/interface/';
+axios.defaults.headers['Content-Type'] = 'application/x-www-form-urlencoded;charset=UTF-8';
+Vue.prototype.$ajax = axios;
+// main.js
+Vue.prototype.$qs = qs;
 
 /* eslint-disable no-new */
 new Vue({

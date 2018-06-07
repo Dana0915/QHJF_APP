@@ -28,8 +28,8 @@
           },
           {
             cls: "user",
-            name: "个人中心",
-            push: "/user"
+            name: "资产",
+            push: "/money"
           }
         ]
       }
