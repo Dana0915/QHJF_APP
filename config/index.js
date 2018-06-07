@@ -10,6 +10,8 @@ module.exports = {
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
+    
+
     proxyTable: { 
     // '/api': {
     //   target: 'http://test.qihangjf.com:29083/interface', // 接口的域名

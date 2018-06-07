@@ -2,9 +2,7 @@
   <div class="footer">
     <ul>
       <li v-for='(item,index) of items'  @click="$router.push(item.push)" :class="index == idx? 'font_color' : ''" :key="index">
-        <!-- :class='[ item.cls , {on:index === idx} ]' -->
         <img :src="index == idx? item.imgBlue : item.img"><br>
-        <!-- <img src="../../assets/img/home1.png" alt=""> -->
         {{item.name}}
       </li>
     </ul>
@@ -15,26 +13,26 @@
     data() {
       return {
         items: [{
-          img: "../../../static/img/home1.png",
-          imgBlue:"../../../static/img/home.png",
+          img: "../static/img/home1.png",
+          imgBlue:"../static/img/home.png",
           name: "首页",
           push: "/home"
         },
           {
-            img: "../../../static/img/liCai1.png",
-            imgBlue:"../../../static/img/liCai.png",
+            img: "../static/img/liCai1.png",
+            imgBlue:"../static/img/liCai.png",
             name: "理财",
             push: "/financial"
           },
           {
-            img: "../../../static/img/find1.png",
-            imgBlue:"../../../static/img/find.png",
+            img: "../static/img/find1.png",
+            imgBlue:"../static/img/find.png",
             name: "发现",
             push: "/find"
           },
           {
-            img: "../../../static/img/zc1.png",
-            imgBlue:"../../../static/img/zc.png",
+            img: "../static/img/zc1.png",
+            imgBlue:"../static/img/zc.png",
             name: "资产",
             push: "/money"
           }
