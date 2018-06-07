@@ -20,7 +20,7 @@
 
   </mt-tab-container>
 
-    <footComponent :idx='0'></footComponent>
+    <footComponent :idx='1'></footComponent>
   </div>
 </template>
 <script>

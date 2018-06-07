@@ -11,7 +11,7 @@
         </div>
     </div>
    
-    <footComponent :idx='0'></footComponent>
+    <footComponent :idx='3'></footComponent>
   </div>
 </template>
 <script>
