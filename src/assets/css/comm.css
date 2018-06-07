@@ -1,0 +1,29 @@
+.mint-tab-container{
+    margin-top: 0.03rem
+    }
+.mint-navbar .mint-tab-item.is-selected{
+    box-sizing: border-box;
+    margin-bottom: 0;
+    border-bottom: 0.03rem solid #26a2ff;
+}
+.mint-tab-item-label{
+    font-size: 1rem;
+}
+input:-webkit-autofill{
+    background-color: #fff !important;
+
+}
+.gradient{
+        background: #2773FF;
+        background: -moz-linear-gradient(right,  #2773FF 0%, #2B9AFF 100%);
+        background: -webkit-gradient(linear, right, left, color-stop(0%,#2773FF), color-stop(100%,#2B9AFF));
+        background: -webkit-linear-gradient(right,  #2773FF 0%,#2B9AFF 100%);
+        background: -o-linear-gradient(right,  #2773FF 0%,#2B9AFF 100%);
+        background: -ms-linear-gradient(right,  #2773FF 0%,#2B9AFF 100%);
+        background: linear-gradient(to left,  #2773FF 0%,#2B9AFF 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2773FF', endColorstr='#2B9AFF',GradientType=0 );
+    }
+:root .gradient{filter:none;}
+.content{
+    padding: 0 0.625rem 0 0.625rem; 
+}
