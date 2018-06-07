@@ -2,9 +2,9 @@
   <div class="container">
     <loanBanner></loanBanner>
     <ul class="titleImg">
-      <li ><img src="../../assets/img/icon_you@2x.png" /><p>邀请好友</p></li>
-      <li ><img src="../../assets/img/icon_huo@2x.png" /><p>优惠活动</p></li>
-      <li ><img src="../../assets/img/icon_banz@2x.png" /><p>帮助中心</p></li>
+      <li ><img src="../../../static/img/icon_you@2x.png" /><p>邀请好友</p></li>
+      <li ><img src="../../../static/img/icon_huo@2x.png" /><p>优惠活动</p></li>
+      <li ><img src="../../../static/img/icon_banz@2x.png" /><p>帮助中心</p></li>
     </ul>
    <listInfo v-bind:list="XsInfo"> </listInfo>
    <listInfo v-bind:list="HotInfo"> </listInfo>

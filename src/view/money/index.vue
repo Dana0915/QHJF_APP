@@ -1,9 +1,9 @@
 <template>
   <div class="container">
     <div class="moneybg">
-        <p class="title"> <span><img src="../../assets/img/icon_head@2x.png" alt="" srcset=""/></span>
+        <p class="title"> <span><img src="../../../static/img/icon_head@2x.png" alt="" srcset=""/></span>
             <span>资产 </span>
-            <span><img src="../../assets/img/Messages@2x.png" alt="" srcset=""></span>
+            <span><img src="../../../static/img/Messages@2x.png" alt="" srcset=""></span>
         </p>
         <div class="amountColor">
             <p>总资产(元)</p>
@@ -36,7 +36,7 @@
 .moneybg{
     width: 100%;
     height:14rem;
-    background-image: url('../../assets/img/bg@2x.png');
+    background-image: url('../../../static/img/bg@2x.png');
     background-size: cover;
     color: #fff;
 }
