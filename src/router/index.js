@@ -22,6 +22,13 @@ export default new Router({
 					component: (resolve) => require([ '../view/other/login' ], resolve)
 				},
 				{
+				  path: '/register',
+				  meta: {
+				    title: '注册'
+				  },
+				  component: (resolve) => require(['../view/other/reg'], resolve)
+				},
+				{
 					path: 'home',
 					component: Home,
 					children: [
