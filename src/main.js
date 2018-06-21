@@ -12,14 +12,15 @@ import qs from 'qs'
 
 
 import { Base64 } from 'js-base64';
-
-
 //注册Base64
 Vue.use(Base64)
 
 //注册MintUI
 Vue.use(MintUI)
 
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
 
 Vue.config.productionTip = false
 
